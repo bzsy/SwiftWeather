@@ -3,9 +3,9 @@ SwiftWeather
 
 Swift语言实现的天气软件
 
-天气API：http://developer.baidu.com/map/index.php?title=car/api/weather
-参考：https://github.com/JakeLin/SwiftWeather
-图标来源：https://github.com/kickstandapps/WeatherIcons
+![天气API](http://developer.baidu.com/map/index.php?title=car/api/weather)
+![参考](https://github.com/JakeLin/SwiftWeather)
+![天气图标](https://github.com/kickstandapps/WeatherIcons)
 
 使用了百度的天气API，需要在SwiftWeather / ViewController.swift中的let ak = " "填写申请到的ak，ak需要到『天气API』网页自行申请
 
