@@ -7,11 +7,13 @@ Swift语言实现的天气软件
 参考：https://github.com/JakeLin/SwiftWeather
 图标来源：https://github.com/kickstandapps/WeatherIcons
 
-Screenshots:
-https://raw.githubusercontent.com/bzsy/SwiftWeather/master/Screenshots/Main.png
+使用了百度的天气API，需要在SwiftWeather / ViewController.swift中的let ak = " "填写申请到的ak，ak需要到『天气API』网页自行申请
+
+##Screenshots:
+![主界面](https://raw.githubusercontent.com/bzsy/SwiftWeather/master/Screenshots/Main.png)
 
 
-使用了百度的天气API，需要在SwiftWeather / ViewController.swift中的let ak = ""填写申请到的ak，ak需要到『天气API』网页自行申请
+
 
 
 以下引用自『参考』：
