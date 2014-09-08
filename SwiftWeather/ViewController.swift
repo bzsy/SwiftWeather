@@ -146,14 +146,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 }
             }
             if let weather_data_next_day = results["weather_data"]?[1] as? NSDictionary{
-                temperatureNLable.text = weather_data_next_day["temperature"]
+                temperatureNLable.text = weather_data_next_day["temperature"]? as String
                 if let weatherString:String  = weather_data_next_day["weather"]? as? String{
                     weatherNLable.text = weatherString
                     updateIcons(weatherString, icon: iconNImage, isThin: true)
                 }
             }
             if let weather_data_next_next_day = results["weather_data"]?[2] as? NSDictionary{
-                temperatureNNLable.text = weather_data_next_next_day["temperature"]
+                temperatureNNLable.text = weather_data_next_next_day["temperature"]? as String
                 if let weatherString:String  = weather_data_next_next_day["weather"]? as? String{
                     weatherNNLable.text = weatherString
                     updateIcons(weatherString, icon: iconNNImage, isThin: true)
